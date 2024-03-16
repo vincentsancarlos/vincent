@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000428, #008892);
+    color: #fff;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+
+.dropdown {
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+</style>
+</head>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown" style="float: right; margin-right: 60px;">
+    <button class="dropbtn">Login 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="login.html">Admin</a>
+      <a href="#">Petugas</a>
+    </div>
+  </div> 
+</div>
+
+
+<h3 style="text-align: center;">selamat datang</h3>
+<p style="text-align: center;">ambatron store</p>
+</div>
+</body>
+</html>
